@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Salar de Uyuni — El espejo natural más grande del mundo. 10.582 km² de magia pura en el corazón de Bolivia. Proyecto web desarrollado por Zenith.">
+    <meta name="keywords"
+        content="Salar de Uyuni, Bolivia, desierto de sal, espejo natural, turismo Bolivia, Isla Incahuasi, litio">
+    <meta name="author" content="Zenith">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <meta property="og:title" content="Salar de Uyuni — El Espejo Más Grande del Mundo">
+    <meta property="og:description" content="10.582 km² de magia pura en el corazón de Bolivia">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="img/hero-salar.jpg">
+    <title>Salar de Uyuni | El Espejo Más Grande del Mundo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <a class="skip-link" href="#main">Saltar al contenido principal</a>
+
+    <div class="scroll-progress" aria-hidden="true"></div>
+
+    <div class="loader" aria-label="Cargando página">
+        <div class="loader-logo">✦ Salar de Uyuni ✦</div>
+        <div class="loader-crystals">
+            <div class="crystal"></div>
+            <div class="crystal"></div>
+            <div class="crystal"></div>
+            <div class="crystal"></div>
+            <div class="crystal"></div>
+        </div>
+        <div class="loader-text">Descubriendo el espejo del cielo...</div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-salar" role="navigation" aria-label="Navegación principal">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo" aria-label="Salar de Uyuni - Inicio">
+                <svg viewBox="0 0 40 40" aria-hidden="true">
+                    <polygon points="20,4 36,32 4,32" fill="none" stroke="currentColor" stroke-width="2" />
+                    <polygon points="20,12 30,28 10,28" fill="currentColor" opacity="0.5" />
+                    <line x1="8" y1="36" x2="32" y2="36" stroke="currentColor" stroke-width="2" />
+                </svg>
+                <span>Salar de Uyuni</span>
+            </a>
+            <button class="hamburger navbar-toggler" id="hamburger" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navMenu" aria-controls="navMenu" aria-label="Abrir menú" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-menu collapse navbar-collapse" id="navMenu" role="menubar">
+                <a href="index.html" role="menuitem" class="nav-link active">Inicio</a>
+                <a href="informacion.html" role="menuitem" class="nav-link">Maravilla</a>
+                <a href="index.html#experiencias" role="menuitem" class="nav-link">Experiencias</a>
+                <a href="galeria.html" role="menuitem" class="nav-link">Galería</a>
+                <a href="informacion.html#visitas" role="menuitem" class="nav-link">Visitas</a>
+                <a href="contacto.html" role="menuitem" class="nav-link">Contacto</a>
+            </div>
+        </div>
+    </nav>
+    <main id="main">
+
+        <section class="hero" id="inicio" aria-label="Sección de bienvenida">
+            <div class="hero-bg" id="heroBg"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-mirror"></div>
+
+            <div class="hero-content">
+                <span class="hero-badge">✦ Maravilla Natural de Bolivia ✦</span>
+                <h1 class="hero-title">El <span class="highlight">Espejo</span> Más Grande del Mundo</h1>
+                <p class="hero-subtitle">10.582 km² de magia pura en el corazón de Bolivia</p>
+                <a href="#maravilla" class="hero-cta" role="button">Explorar el Paraíso</a>
+            </div>
+
+            <div class="hero-wave" aria-hidden="true">
+                <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+                    <path d="M0,40 C360,80 720,0 1080,40 C1260,60 1380,50 1440,40 L1440,80 L0,80 Z" fill="#FFFFFF" />
+                </svg>
+            </div>
+        </section>
+
+        <section class="section maravilla" id="maravilla" aria-label="Qué es el Salar de Uyuni">
+            <div class="container">
+                <div class="maravilla-grid">
+                    <div class="maravilla-text reveal">
+                        <h2>¿Qué es el Salar de Uyuni?</h2>
+                        <p>El Salar de Uyuni es el desierto de sal más grande del mundo, ubicado en el suroeste de
+                            Bolivia a 3.656 metros sobre el nivel del mar. Formado hace más de 40.000 años por la
+                            evaporación del lago prehistórico Minchín, este espejo natural de 10.582 km² ofrece un
+                            paisaje surrealista donde el cielo y la tierra se fusionan en un abrazo infinito.</p>
+                        <div class="quote">
+                            "Donde termina la tierra y comienza el cielo... nadie lo sabe con certeza."
+                        </div>
+                        <p>Durante la temporada de lluvias, una fina capa de agua transforma este vasto desierto blanco
+                            en el espejo natural más grande del planeta, creando una ilusión óptica donde el horizonte
+                            desaparece y caminar se convierte en flotar entre las nubes.</p>
+                        <a href="informacion.html" class="exp-btn d-inline-block mt-3">Conocer la historia completa
+                            →</a>
+                    </div>
+                    <div class="maravilla-image reveal reveal-delay-2">
+                        <img src="img/maravilla-atardecer.jpg"
+                            alt="Atardecer espectacular sobre las aguas reflectantes del Salar de Uyuni, Bolivia"
+                            loading="lazy">
+                    </div>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card reveal reveal-delay-1">
+                        <div class="stat-icon" aria-hidden="true">🌍</div>
+                        <div class="stat-number"><span class="counter" data-target="10582">0</span> km²</div>
+                        <div class="stat-label">Superficie Total</div>
+                    </div>
+                    <div class="stat-card reveal reveal-delay-2">
+                        <div class="stat-icon" aria-hidden="true">⛰️</div>
+                        <div class="stat-number"><span class="counter" data-target="3656">0</span> msnm</div>
+                        <div class="stat-label">Altura</div>
+                    </div>
+                    <div class="stat-card reveal reveal-delay-3">
+                        <div class="stat-icon" aria-hidden="true">⚡</div>
+                        <div class="stat-number"><span class="counter" data-target="50">0</span>% litio</div>
+                        <div class="stat-label">Reserva Mundial</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="seccion-alerta" aria-label="Dato destacado sobre el litio">
+            <div class="container">
+                <div class="alert alerta-salar alert-dismissible fade show mb-0" role="alert">
+                    <i class="bi bi-lightning-charge-fill me-2" aria-hidden="true"></i>
+                    <strong>¿Sabías que?</strong> Bajo la costra de sal del Salar de Uyuni se encuentra cerca del
+                    <strong>50 % de las reservas mundiales de litio</strong>, el mineral clave para las baterías de
+                    los vehículos eléctricos y los dispositivos móviles.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section experiencias" id="experiencias" aria-label="Experiencias únicas en el Salar">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-badge">Vive la magia del salar</span>
+                    <h2 class="section-title">Experiencias Únicas</h2>
+                    <div class="section-line"></div>
+                    <p class="section-subtitle">Cuatro vivencias que solo el Salar de Uyuni puede ofrecerte</p>
+                </div>
+
+                <div class="experiencias-grid">
+                    <article class="card exp-card reveal reveal-delay-1">
+                        <div class="exp-card-img">
+                            <img class="card-img-top" src="img/magia-reflejo.jpg"
+                                alt="Efecto espejo del Salar de Uyuni con reflejo perfecto del cielo" loading="lazy">
+                            <div class="exp-icon" aria-hidden="true">💧</div>
+                        </div>
+                        <div class="card-body exp-card-body">
+                            <h3>Efecto Espejo</h3>
+                            <p>Durante la temporada de lluvias (nov-mar), una fina capa de agua convierte el salar en
+                                el espejo natural más grande del mundo.</p>
+                            <a href="galeria.html" class="exp-btn">Ver más →</a>
+                        </div>
+                    </article>
+
+                    <article class="card exp-card reveal reveal-delay-2">
+                        <div class="exp-card-img">
+                            <img class="card-img-top" src="img/incahuasi.jpg"
+                                alt="Cactus gigantes en la Isla Incahuasi, Salar de Uyuni" loading="lazy">
+                            <div class="exp-icon" aria-hidden="true">🌵</div>
+                        </div>
+                        <div class="card-body exp-card-body">
+                            <h3>Isla Incahuasi</h3>
+                            <p>Isla cubierta de cactus gigantes Trichocereus que alcanzan hasta 10 metros de altura,
+                                rodeada de un mar infinito de sal blanca.</p>
+                            <a href="galeria.html" class="exp-btn">Ver más →</a>
+                        </div>
+                    </article>
+
+                    <article class="card exp-card reveal reveal-delay-3">
+                        <div class="exp-card-img">
+                            <img class="card-img-top" src="img/exp-atardecer.jpg"
+                                alt="Atardecer épico con tonos dorados y púrpuras en el Salar de Uyuni" loading="lazy">
+                            <div class="exp-icon" aria-hidden="true">🌅</div>
+                        </div>
+                        <div class="card-body exp-card-body">
+                            <h3>Atardeceres Épicos</h3>
+                            <p>Los atardeceres en el salar pintan el cielo de tonos dorados, rosas y púrpuras
+                                inolvidables que se reflejan en el horizonte infinito.</p>
+                            <a href="galeria.html" class="exp-btn">Ver más →</a>
+                        </div>
+                    </article>
+
+                    <article class="card exp-card reveal reveal-delay-4">
+                        <div class="exp-card-img">
+                            <img class="card-img-top" src="img/hotel-sal.jpg"
+                                alt="Interior de un hotel construido con bloques de sal en Uyuni" loading="lazy">
+                            <div class="exp-icon" aria-hidden="true">🏨</div>
+                        </div>
+                        <div class="card-body exp-card-body">
+                            <h3>Hoteles de Sal</h3>
+                            <p>Duerme en hoteles construidos completamente con bloques de sal del desierto, una
+                                experiencia única en el mundo entero.</p>
+                            <a href="galeria.html" class="exp-btn">Ver más →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="section testimonios" id="testimonios" aria-label="Testimonios de visitantes">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-badge">Voces de viajeros</span>
+                    <h2 class="section-title">Lo Que Dicen Nuestros Visitantes</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="testimonios-carousel reveal">
+                    <div class="testimonios-track" id="testimoniosTrack">
+                        <div class="testimonio-card">
+                            <div class="testimonio-inner">
+                                <img src="img/avatar-1.jpg" alt="Retrato de Carlos M., visitante argentino"
+                                    class="testimonio-avatar" loading="lazy">
+                                <div class="testimonio-stars" aria-label="5 de 5 estrellas">★★★★★</div>
+                                <p class="testimonio-text">"Caminar sobre el salar durante la temporada de lluvias fue
+                                    como caminar sobre las nubes. El reflejo del cielo en el agua es algo que nunca
+                                    olvidaré. Una experiencia que cambió mi perspectiva del mundo."</p>
+                                <div class="testimonio-name">Carlos M.</div>
+                                <div class="testimonio-country">🇦🇷 Argentina</div>
+                            </div>
+                        </div>
+
+                        <div class="testimonio-card">
+                            <div class="testimonio-inner">
+                                <img src="img/avatar-2.jpg" alt="Retrato de María L., visitante española"
+                                    class="testimonio-avatar" loading="lazy">
+                                <div class="testimonio-stars" aria-label="5 de 5 estrellas">★★★★★</div>
+                                <p class="testimonio-text">"Los atardeceres en el Salar de Uyuni son los más hermosos
+                                    que he visto en toda mi vida. Los colores, el silencio, la inmensidad... Es como
+                                    estar en otro planeta. Bolivia es mágica."</p>
+                                <div class="testimonio-name">María L.</div>
+                                <div class="testimonio-country">🇪🇸 España</div>
+                            </div>
+                        </div>
+
+                        <div class="testimonio-card">
+                            <div class="testimonio-inner">
+                                <img src="img/avatar-3.jpg" alt="Retrato de Takeshi H., visitante japonés"
+                                    class="testimonio-avatar" loading="lazy">
+                                <div class="testimonio-stars" aria-label="5 de 5 estrellas">★★★★★</div>
+                                <p class="testimonio-text">"Como fotógrafo profesional he viajado por todo el mundo,
+                                    pero nada me preparó para la belleza del Salar de Uyuni. Cada ángulo es una obra
+                                    maestra natural. Volveré sin duda."</p>
+                                <div class="testimonio-name">Takeshi H.</div>
+                                <div class="testimonio-country">🇯🇵 Japón</div>
+                            </div>
+                        </div>
+
+                        <div class="testimonio-card">
+                            <div class="testimonio-inner">
+                                <img src="img/avatar-4.jpg" alt="Retrato de Ana P., visitante brasileña"
+                                    class="testimonio-avatar" loading="lazy">
+                                <div class="testimonio-stars" aria-label="5 de 5 estrellas">★★★★★</div>
+                                <p class="testimonio-text">"El tour de 3 días por el salar, las lagunas de colores y
+                                    los géiseres fue la mejor experiencia de viaje de mi vida. La hospitalidad
+                                    boliviana y los paisajes son incomparables."</p>
+                                <div class="testimonio-name">Ana P.</div>
+                                <div class="testimonio-country">🇧🇷 Brasil</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-controls">
+                        <button class="carousel-btn" id="prevBtn" aria-label="Testimonio anterior">‹</button>
+                        <div class="carousel-dots" id="carouselDots">
+                            <button class="carousel-dot active" data-slide="0" aria-label="Ir al testimonio 1"></button>
+                            <button class="carousel-dot" data-slide="1" aria-label="Ir al testimonio 2"></button>
+                            <button class="carousel-dot" data-slide="2" aria-label="Ir al testimonio 3"></button>
+                            <button class="carousel-dot" data-slide="3" aria-label="Ir al testimonio 4"></button>
+                        </div>
+                        <button class="carousel-btn" id="nextBtn" aria-label="Testimonio siguiente">›</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">✦ Salar de Uyuni</div>
+                    <p>Proyecto educativo dedicado a difundir la belleza y el valor del patrimonio natural boliviano.
+                        El Salar de Uyuni es una maravilla que pertenece al mundo.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                            aria-label="Síguenos en Facebook">📘</a>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                            aria-label="Síguenos en Instagram">📸</a>
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                            aria-label="Síguenos en YouTube">▶️</a>
+                        <a href="mailto:salaruyuni.proyecto@gmail.com" aria-label="Escríbenos un correo">✉️</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="informacion.html">La Maravilla</a></li>
+                        <li><a href="index.html#experiencias">Experiencias</a></li>
+                        <li><a href="galeria.html">Galería</a></li>
+                        <li><a href="informacion.html#visitas">Puntos de Interés</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Información</h4>
+                    <ul>
+                        <li><a href="informacion.html#temporadas">Temporadas</a></li>
+                        <li><a href="informacion.html#como-llegar">Cómo Llegar</a></li>
+                        <li><a href="informacion.html#datos">Datos Curiosos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="informacion.html#fuentes">Fuentes y Créditos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-academico">
+                    <h4>Sobre el Proyecto</h4>
+                    <ul>
+                        <li><i class="bi bi-person-badge" aria-hidden="true"></i> Desarrollado por Zenith</li>
+                        <li><i class="bi bi-code-slash" aria-hidden="true"></i> HTML5 · CSS3 · JS · Bootstrap 5</li>
+                        <li><i class="bi bi-calendar3" aria-hidden="true"></i> Bolivia — 2026</li>
+                        <li><i class="bi bi-geo-alt" aria-hidden="true"></i>
+                            <a href="https://www.google.com/maps/place/Salar+de+Uyuni" target="_blank" rel="noopener">
+                                Uyuni — Potosí, Bolivia (ver mapa)</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-bottom">
+                <p>© 2026 Salar de Uyuni — Maravilla Natural de Bolivia</p>
+                <p>Diseñado y desarrollado por Zenith · Bolivia 2026</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Volver al inicio">↑</button>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div class="toast toast-salar" id="toastBienvenida" role="alert" aria-live="polite" aria-atomic="true">
+            <div class="toast-header">
+                <i class="bi bi-sunrise-fill me-2" aria-hidden="true"></i>
+                <strong class="me-auto">Salar de Uyuni</strong>
+                <small>Ahora</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Cerrar"></button>
+            </div>
+            <div class="toast-body">
+                ¡Bienvenido al espejo más grande del mundo! Usa el menú para recorrer las 4 páginas del sitio. ✦
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Galería de imágenes del Salar de Uyuni: el efecto espejo, atardeceres épicos, la Isla Incahuasi, los flamencos andinos y más fotografías de la maravilla natural de Bolivia.">
+    <meta name="keywords"
+        content="Galería Salar de Uyuni, fotos Salar de Uyuni, efecto espejo, Isla Incahuasi, flamencos andinos, Bolivia">
+    <meta name="author" content="Zenith">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <title>Galería de Imágenes | Salar de Uyuni</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <a class="skip-link" href="#main">Saltar al contenido principal</a>
+    <div class="scroll-progress" aria-hidden="true"></div>
+
+    <div class="loader" aria-label="Cargando página">
+        <div class="loader-logo">✦ Salar de Uyuni ✦</div>
+        <div class="loader-crystals">
+            <div class="crystal"></div>
+            <div class="crystal"></div>
+            <div class="crystal"></div>
+            <div class="crystal"></div>
+            <div class="crystal"></div>
+        </div>
+        <div class="loader-text">Descubriendo el espejo del cielo...</div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-salar" role="navigation" aria-label="Navegación principal">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo" aria-label="Salar de Uyuni - Inicio">
+                <svg viewBox="0 0 40 40" aria-hidden="true">
+                    <polygon points="20,4 36,32 4,32" fill="none" stroke="currentColor" stroke-width="2" />
+                    <polygon points="20,12 30,28 10,28" fill="currentColor" opacity="0.5" />
+                    <line x1="8" y1="36" x2="32" y2="36" stroke="currentColor" stroke-width="2" />
+                </svg>
+                <span>Salar de Uyuni</span>
+            </a>
+            <button class="hamburger navbar-toggler" id="hamburger" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navMenu" aria-controls="navMenu" aria-label="Abrir menú" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-menu collapse navbar-collapse" id="navMenu" role="menubar">
+                <a href="index.html" role="menuitem" class="nav-link">Inicio</a>
+                <a href="informacion.html" role="menuitem" class="nav-link">Maravilla</a>
+                <a href="index.html#experiencias" role="menuitem" class="nav-link">Experiencias</a>
+                <a href="galeria.html" role="menuitem" class="nav-link active">Galería</a>
+                <a href="informacion.html#visitas" role="menuitem" class="nav-link">Visitas</a>
+                <a href="contacto.html" role="menuitem" class="nav-link">Contacto</a>
+            </div>
+        </div>
+    </nav>
+    <main id="main">
+
+        <section class="hero hero-pagina" aria-label="Portada de la galería">
+            <div class="hero-bg hero-bg-pagina hero-bg-galeria"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <span class="hero-badge">✦ Imágenes que inspiran ✦</span>
+                <h1 class="hero-title">Galería del <span class="highlight">Espejo</span> del Cielo</h1>
+                <p class="hero-subtitle">Doce fotografías del Salar de Uyuni, la maravilla natural de Bolivia</p>
+                <a href="#galeria" class="hero-cta" role="button">Ver las fotografías</a>
+            </div>
+            <div class="hero-wave" aria-hidden="true">
+                <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+                    <path d="M0,40 C360,80 720,0 1080,40 C1260,60 1380,50 1440,40 L1440,80 L0,80 Z" fill="#FFFFFF" />
+                </svg>
+            </div>
+        </section>
+        <section class="section carrusel-destacadas" aria-label="Fotografías destacadas en carrusel">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-badge">Recorrido visual</span>
+                    <h2 class="section-title">Fotografías Destacadas</h2>
+                    <div class="section-line"></div>
+                    <p class="section-subtitle">Un carrusel automático con cinco postales del salar</p>
+                </div>
+
+                <div id="carruselDestacadas" class="carousel slide carrusel-salar reveal" data-bs-ride="carousel"
+                    data-bs-interval="4500">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carruselDestacadas" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Fotografía 1"></button>
+                        <button type="button" data-bs-target="#carruselDestacadas" data-bs-slide-to="1"
+                            aria-label="Fotografía 2"></button>
+                        <button type="button" data-bs-target="#carruselDestacadas" data-bs-slide-to="2"
+                            aria-label="Fotografía 3"></button>
+                        <button type="button" data-bs-target="#carruselDestacadas" data-bs-slide-to="3"
+                            aria-label="Fotografía 4"></button>
+                        <button type="button" data-bs-target="#carruselDestacadas" data-bs-slide-to="4"
+                            aria-label="Fotografía 5"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/hero-salar.jpg" class="d-block w-100"
+                                alt="Amanecer sobre el Salar de Uyuni con los Andes al fondo">
+                            <div class="carousel-caption">
+                                <h3>Amanecer en el Salar</h3>
+                                <p>El cielo y la sal se confunden en el horizonte infinito del altiplano.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/espejo-perfecto.jpg" class="d-block w-100"
+                                alt="Reflejo perfecto de las nubes en la superficie inundada del salar">
+                            <div class="carousel-caption">
+                                <h3>Espejo Perfecto</h3>
+                                <p>En temporada de lluvias el salar es el espejo más grande del mundo.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/incahuasi.jpg" class="d-block w-100"
+                                alt="Cactus gigantes de la Isla Incahuasi en medio del Salar de Uyuni">
+                            <div class="carousel-caption">
+                                <h3>Isla Incahuasi</h3>
+                                <p>Un islote de roca y cactus milenarios rodeado por un mar blanco de sal.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/magia-reflejo.jpg" class="d-block w-100"
+                                alt="Visitantes disfrutando del reflejo del atardecer en el Salar de Uyuni">
+                            <div class="carousel-caption">
+                                <h3>Magia del Reflejo</h3>
+                                <p>Caminar sobre el agua y las nubes: una experiencia única en el planeta.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/flamencos-andinos.jpg" class="d-block w-100"
+                                alt="Flamencos andinos alimentándose en las lagunas del altiplano boliviano">
+                            <div class="carousel-caption">
+                                <h3>Flamencos Andinos</h3>
+                                <p>Cuatro especies de flamencos habitan las lagunas que rodean el salar.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carruselDestacadas"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carruselDestacadas"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="section galeria" id="galeria" aria-label="Galería de imágenes del Salar de Uyuni">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-badge" style="color: var(--color-dorado-atardecer);">Imágenes que
+                        inspiran</span>
+                    <h2 class="section-title">Galería de Imágenes</h2>
+                    <div class="section-line"></div>
+                    <p class="section-subtitle">Descubre la belleza del salar a través de estas 12 fotografías.
+                        Haz clic en cualquier imagen para verla ampliada.</p>
+                </div>
+
+                <div class="gallery-filters reveal" role="group" aria-label="Filtros de la galería">
+                    <button class="filter-btn active" data-filter="all"
+                        aria-label="Mostrar todas las imágenes">Todas</button>
+                    <button class="filter-btn" data-filter="espejo"
+                        aria-label="Filtrar por efecto espejo">Espejo</button>
+                    <button class="filter-btn" data-filter="atardecer"
+                        aria-label="Filtrar por atardeceres">Atardecer</button>
+                    <button class="filter-btn" data-filter="incahuasi"
+                        aria-label="Filtrar por Incahuasi">Incahuasi</button>
+                    <button class="filter-btn" data-filter="fauna" aria-label="Filtrar por fauna">Fauna</button>
+                </div>
+
+                <div class="gallery-grid" id="galleryGrid">
+                    <figure class="gallery-item tall reveal" data-category="espejo" data-index="0">
+                        <img src="img/amanecer-salar.jpg" alt="Amanecer reflejado en las aguas del Salar de Uyuni"
+                            loading="lazy">
+                        <figcaption class="gallery-overlay"><span>Amanecer en el Salar</span></figcaption>
+                    </figure>
+                    <figure class="gallery-item reveal" data-category="atardecer" data-index="1">
+                        <img src="img/atardecer-fotografico.jpg" alt="Fotógrafo capturando el atardecer en las salinas"
+                            loading="lazy">
+                        <figcaption class="gallery-overlay"><span>Atardecer Fotográfico</span></figcaption>
+                    </figure>
+                    <figure class="gallery-item reveal" data-category="incahuasi" data-index="2">
+                        <img src="img/paisaje-infinito.jpg" alt="Vista panorámica del Salar de Uyuni con cielo azul"
+                            loading="lazy">
+                        <figcaption class="gallery-overlay"><span>Paisaje Infinito</span></figcaption>
+                    </figure>
+                    <figure class="gallery-item reveal" data-category="espejo" data-index="3">
+                        <img src="img/espejo-perfecto.jpg" alt="Reflejo perfecto de nubes en el salar inundado"
+                            loading="lazy">
+                        <figcaption class="gallery-overlay"><span>Espejo Perfecto</span></figcaption>
+                    </figure>
+                    <figure class="gallery-item reveal" data-category="fauna" data-index="4">
+                        <img src="img/flamencos-andinos.jpg"
+                            alt="Flamencos rosados alimentándose en las lagunas del altiplano boliviano" loading="lazy">
+                        <figcaption class="gallery-overlay"><span>Flamencos Andinos</span></figcaption>
+                    </figure>
+                    <figure class="gallery-item tall reveal" data-category="atardecer" data-index="5">
+                        <img src="img/magia-reflejo.jpg" alt="Visitantes disfrutando del reflejo del atardecer en Uyuni"
+                            loading="lazy">
+                        <figcaption class="gallery-overlay"><span>Magia del Reflejo</span></figcaption>
+                    </figure>
+                    <figure class="gallery-item reveal" data-category="incahuasi" data-index="6">
+                        <img src="img/hexagonos-sal.jpg" alt="Textura de los hexágonos de sal del Salar de Uyuni"
+                            loading="lazy">
+                        <figcaption class="gallery-overlay"><span>Hexágonos de Sal</span></figcaption>
+                    </figure>
+                    <figure class="gallery-item reveal" data-category="fauna" data-index="7">
+                        <img src="img/laguna-colorada.jpg" alt="Flamencos en laguna con montañas andinas de fondo"
+                            loading="lazy">
+                        <figcaption class="gallery-overlay"><span>Laguna Colorada</span></figcaption>
+                    </figure>
+                    <figure class="gallery-item reveal" data-category="espejo" data-index="8">
+                        <img src="img/espejo1.jpg"
+                            alt="Reflejo del cielo sobre la superficie inundada del Salar de Uyuni" loading="lazy">
+                        <figcaption class="gallery-overlay"><span>Espejo del Cielo</span></figcaption>
+                    </figure>
+                    <figure class="gallery-item reveal" data-category="espejo" data-index="9">
+                        <img src="img/espejo2.jpg" alt="Reflejo perfecto del cielo azul sobre el salar inundado"
+                            loading="lazy">
+                        <figcaption class="gallery-overlay"><span>Reflejo de Nubes</span></figcaption>
+                    </figure>
+                    <figure class="gallery-item reveal" data-category="atardecer" data-index="10">
+                        <img src="img/amanecer.jpg" alt="Amanecer con tonos dorados y naranjas sobre el Salar de Uyuni"
+                            loading="lazy">
+                        <figcaption class="gallery-overlay"><span>Amanecer Dorado</span></figcaption>
+                    </figure>
+                    <figure class="gallery-item reveal" data-category="incahuasi" data-index="11">
+                        <img src="img/incahuasi.jpg"
+                            alt="Isla Incahuasi con sus cactus gigantes en medio del Salar de Uyuni" loading="lazy">
+                        <figcaption class="gallery-overlay"><span>Isla Incahuasi</span></figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="section creditos-imagenes" aria-label="Créditos de las imágenes">
+            <div class="container">
+                <div class="alert alerta-info mb-0" role="alert">
+                    <i class="bi bi-camera me-2" aria-hidden="true"></i>
+                    <strong>Crédito de las imágenes:</strong> todas las fotografías de esta galería pertenecen al
+                    banco de imágenes libres <strong>Pexels</strong> y se almacenan de forma local en la carpeta
+                    <code>img/</code> del proyecto. Consulta la sección
+                    <a href="informacion.html#fuentes">Fuentes y créditos</a> para ver las direcciones de origen.
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-label="Visor de imágenes" aria-modal="true">
+        <button class="lightbox-close" aria-label="Cerrar visor">✕</button>
+        <button class="lightbox-nav lightbox-prev" aria-label="Imagen anterior">‹</button>
+        <button class="lightbox-nav lightbox-next" aria-label="Imagen siguiente">›</button>
+        <img src="" alt="" id="lightboxImg">
+        <div class="lightbox-counter" id="lightboxCounter"></div>
+    </div>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">✦ Salar de Uyuni</div>
+                    <p>Proyecto educativo dedicado a difundir la belleza y el valor del patrimonio natural boliviano.
+                        El Salar de Uyuni es una maravilla que pertenece al mundo.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                            aria-label="Síguenos en Facebook">📘</a>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                            aria-label="Síguenos en Instagram">📸</a>
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                            aria-label="Síguenos en YouTube">▶️</a>
+                        <a href="mailto:salaruyuni.proyecto@gmail.com" aria-label="Escríbenos un correo">✉️</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="informacion.html">La Maravilla</a></li>
+                        <li><a href="index.html#experiencias">Experiencias</a></li>
+                        <li><a href="galeria.html">Galería</a></li>
+                        <li><a href="informacion.html#visitas">Puntos de Interés</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Información</h4>
+                    <ul>
+                        <li><a href="informacion.html#temporadas">Temporadas</a></li>
+                        <li><a href="informacion.html#como-llegar">Cómo Llegar</a></li>
+                        <li><a href="informacion.html#datos">Datos Curiosos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="informacion.html#fuentes">Fuentes y Créditos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-academico">
+                    <h4>Sobre el Proyecto</h4>
+                    <ul>
+                        <li><i class="bi bi-person-badge" aria-hidden="true"></i> Desarrollado por Zenith</li>
+                        <li><i class="bi bi-code-slash" aria-hidden="true"></i> HTML5 · CSS3 · JS · Bootstrap 5</li>
+                        <li><i class="bi bi-calendar3" aria-hidden="true"></i> Bolivia — 2026</li>
+                        <li><i class="bi bi-geo-alt" aria-hidden="true"></i>
+                            <a href="https://www.google.com/maps/place/Salar+de+Uyuni" target="_blank" rel="noopener">
+                                Uyuni — Potosí, Bolivia (ver mapa)</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-bottom">
+                <p>© 2026 Salar de Uyuni — Maravilla Natural de Bolivia</p>
+                <p>Diseñado y desarrollado por Zenith · Bolivia 2026</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Volver al inicio">↑</button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
